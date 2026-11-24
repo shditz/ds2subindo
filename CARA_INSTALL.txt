@@ -1,0 +1,15 @@
+CARA PASANG MOD BAHASA INDONESIA DARK SOULS 2 SOTFS
+Karya: ShDitz
+
+1. Tutup game Dark Souls 2 jika sedang berjalan.
+2. Klik kanan pada "install_mod.bat" lalu pilih "Run as administrator" (atau klik ganda langsung).
+   Installer akan otomatis mendeteksi folder game Anda di Steam dan memasang mod.
+   File asli game akan otomatis dicadangkan ke folder "original".
+3. Buka game, masuk ke Game Options (Opsi Permainan), lalu pastikan opsi Subtitle = AKTIF.
+
+Jika Anda memakai Seamless Co-op, terjemahan menu, item co-op, dan pengumuman pembuka akan otomatis terpasang.
+
+CARA HAPUS MOD (KEMBALIKAN KE BAHASA INGGRIS):
+1. Tutup game jika sedang berjalan.
+2. Klik ganda pada "uninstall_mod.bat".
+   File asli game akan otomatis dikembalikan ke kondisi semula.
