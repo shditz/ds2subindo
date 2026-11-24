@@ -2,24 +2,25 @@ CARA PASANG MOD BAHASA INDONESIA DARK SOULS 2 SOTFS
 Karya: ShDitz
 
 PENTING:
-File ZIP dari Nexus Mods ini hanya berisi berkas terjemahan (folder menu dan SeamlessCoop).
+File ZIP dari Nexus Mods ini hanya berisi berkas terjemahan (folder DS2Subtitleindo).
 Untuk memasang mod, Anda WAJIB mengunduh skrip installer resmi di repositori GitHub kami:
 https://github.com/shditz/ds2subindo
 
 LANGKAH PEMASANGAN:
-1. Unduh "install_mod.bat" dan "uninstall_mod.bat" dari GitHub:
-   https://github.com/shditz/ds2subindo
-2. Letakkan kedua file .bat tersebut di folder yang sama dengan folder "menu" hasil ekstrak ZIP ini.
-3. Pindahkan folder hasil ekstrak tersebut ke dalam folder instalasi game (tempat DarkSoulsII.exe berada):
+1. Ekstrak file "DS2Subtitleindo.zip" dari Nexus Mods. Anda akan mendapatkan folder bernama "DS2Subtitleindo".
+2. Pindahkan folder "DS2Subtitleindo" tersebut ke dalam folder instalasi game Anda (tempat DarkSoulsII.exe berada):
    ...\Dark Souls II Scholar of the First Sin\Game\
-4. Pastikan game dalam keadaan tertutup.
-5. Klik ganda pada "install_mod.bat" (atau klik kanan pilih "Run as administrator").
+3. Unduh "install_mod.bat" dan "uninstall_mod.bat" dari repositori GitHub resmi kami:
+   https://github.com/shditz/ds2subindo
+4. Letakkan file "install_mod.bat" dan "uninstall_mod.bat" di dalam folder "DS2Subtitleindo" yang ada di folder game tersebut.
+5. Pastikan game dalam keadaan tertutup.
+6. Buka folder "DS2Subtitleindo", lalu klik ganda pada "install_mod.bat" (atau klik kanan pilih "Run as administrator").
    Installer akan otomatis mencadangkan file asli ke folder "original" dan memasang mod.
-6. Buka game, masuk ke Game Options (Opsi Permainan), lalu pastikan opsi Subtitle = AKTIF.
+7. Buka game, masuk ke Game Options (Opsi Permainan), lalu pastikan opsi Subtitle = AKTIF.
 
 CARA HAPUS MOD (KEMBALIKAN KE BAHASA INGGRIS):
 1. Tutup game jika sedang berjalan.
-2. Buka folder kerja Anda, lalu klik ganda pada "uninstall_mod.bat".
+2. Buka folder "DS2Subtitleindo" di dalam folder game Anda, lalu klik ganda pada "uninstall_mod.bat".
    File asli game akan otomatis dikembalikan ke kondisi semula.
 
 DUKUNGAN / DONASI:

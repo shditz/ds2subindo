@@ -7,6 +7,11 @@ if exist "%~dp0menu\text\english\common.fmg" (
     set "SRC=%~dp0menu\text\english"
 )
 if not defined SRC (
+    if exist "%~dp0DS2Subtitleindo\menu\text\english\common.fmg" (
+        set "SRC=%~dp0DS2Subtitleindo\menu\text\english"
+    )
+)
+if not defined SRC (
     if exist "%~dp0DS2Subindo\menu\text\english\common.fmg" (
         set "SRC=%~dp0DS2Subindo\menu\text\english"
     )
@@ -27,6 +32,8 @@ if not defined SRC (
 set "SRC_TEX="
 if exist "%~dp0menu\tex\language\english.fetexbnd.dcx" (
     set "SRC_TEX=%~dp0menu\tex\language\english.fetexbnd.dcx"
+) else if exist "%~dp0DS2Subtitleindo\menu\tex\language\english.fetexbnd.dcx" (
+    set "SRC_TEX=%~dp0DS2Subtitleindo\menu\tex\language\english.fetexbnd.dcx"
 ) else if exist "%~dp0DS2Subindo\menu\tex\language\english.fetexbnd.dcx" (
     set "SRC_TEX=%~dp0DS2Subindo\menu\tex\language\english.fetexbnd.dcx"
 ) else if exist "%~dp0dist\menu\tex\language\english.fetexbnd.dcx" (
@@ -178,6 +185,8 @@ if exist "!TARGET!\SeamlessCoop\" (
     )
     if exist "%~dp0SeamlessCoop\locale\english.json" (
         set "SC_SRC=%~dp0SeamlessCoop\locale\english.json"
+    ) else if exist "%~dp0DS2Subtitleindo\SeamlessCoop\locale\english.json" (
+        set "SC_SRC=%~dp0DS2Subtitleindo\SeamlessCoop\locale\english.json"
     ) else if exist "%~dp0DS2Subindo\SeamlessCoop\locale\english.json" (
         set "SC_SRC=%~dp0DS2Subindo\SeamlessCoop\locale\english.json"
     ) else if exist "%~dp0dist\SeamlessCoop\locale\english.json" (
