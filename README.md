@@ -2,28 +2,39 @@
 
 Karya: **ShDitz**
 
-Repositori ini berisi berkas lengkap Mod Subtitle dan Lokalisasi Bahasa Indonesia untuk **Dark Souls II: Scholar of the First Sin (Steam)** beserta skrip pemasangan otomatisnya.
+Mod ini menerjemahkan Dark Souls II: Scholar of the First Sin (Steam) ke Bahasa Indonesia, mencakup seluruh dialog NPC, cerita prolog, lore dan deskripsi item, menu, tombol title, 17 banner in-game (KAMU MATI, BONFIRE DINYALAKAN, dll), serta mod Seamless Co-op.
 
-Mod ini menerjemahkan 100% dialog NPC (base game dan 3 DLC Crown Trilogy), narasi prolog, lore dan penjelasan seluruh item, menu utama, 17 banner in-game (seperti `KAMU MATI` dan `BONFIRE DINYALAKAN`), serta dukungan penuh untuk mod Seamless Co-op. Nama senjata, armor, cincin, sihir, boss, dan lokasi tetap dalam Bahasa Inggris asli agar memudahkan pencarian panduan dan wiki.
+Nama senjata, armor, cincin, sihir, boss, dan lokasi tetap menggunakan Bahasa Inggris asli agar Anda tidak kesulitan mencari panduan dan wiki.
 
 ## Cara Pasang (Install)
 
-1. Unduh repositori ini dengan menekan tombol hijau **Code** lalu pilih **Download ZIP** (atau unduh dari tab Releases jika tersedia).
-2. Ekstrak file ZIP hasil unduhan tersebut ke suatu folder di komputer Anda.
-3. Pastikan game Dark Souls II dalam keadaan tertutup.
-4. Klik ganda pada `install_mod.bat`. Jika game Anda berada di folder Program Files, klik kanan lalu pilih "Run as administrator".
-5. Installer akan otomatis mencari lokasi game Steam Anda, membuat cadangan file asli ke folder `original`, lalu memasang seluruh mod.
-6. Jalankan game, masuk ke menu Game Options (Opsi Permainan), lalu pastikan opsi **Subtitle** diatur ke **Aktif**.
+1. Klik tombol hijau **Code** di repositori ini, lalu pilih **Download ZIP** (file yang terunduh bernama `ds2subindo-main.zip`).
+2. Ekstrak file `ds2subindo-main.zip` tersebut. Anda akan mendapatkan folder bernama `ds2subindo-main`.
+3. Pindahkan folder `ds2subindo-main` tersebut ke dalam folder instalasi game Anda (tempat `DarkSoulsII.exe` berada).
+   Contoh lokasi folder game di Steam:
+   `C:\Program Files (x86)\Steam\steamapps\common\Dark Souls II Scholar of the First Sin\Game\`
+4. Pastikan game Dark Souls II dalam keadaan tertutup.
+5. Buka folder `ds2subindo-main` di dalam folder Game tersebut, lalu klik ganda file `install_mod.bat` (atau klik kanan lalu pilih "Run as administrator").
+6. Tunggu proses instalasi selesai. File asli game akan otomatis dicadangkan ke folder `original`.
+7. Jalankan game, masuk ke menu **Game Options** (Opsi Permainan), lalu pastikan opsi **Subtitle** diatur ke **Aktif**.
 
 ## Cara Hapus (Uninstall)
 
-Jika Anda ingin mengembalikan game ke kondisi awal (Bahasa Inggris bawaan):
+Jika ingin mengembalikan game ke kondisi asli (Bahasa Inggris bawaan):
 
-1. Pastikan game sedang ditutup.
-2. Klik ganda pada `uninstall_mod.bat` di folder yang sama.
-3. Uninstaller akan otomatis mengembalikan file asli dari folder `original` dan membersihkan berkas mod.
+1. Pastikan game sedang tertutup.
+2. Buka folder `ds2subindo-main` di dalam folder Game Anda, lalu klik ganda file `uninstall_mod.bat`.
+3. Skrip akan otomatis mengembalikan file asli dari folder `original` dan membersihkan file mod.
 
 ## Hal Penting
 
-- Skrip `install_mod.bat` otomatis membuat folder `original` sebagai cadangan file asli game Anda. Jangan hapus folder `original` tersebut agar uninstaller bisa mengembalikan game kapan saja.
-- Mod ini murni mengubah teks tampilan dan tekstur antarmuka tanpa menyentuh file save data maupun statistik permainan.
+- Folder `original` dibuat otomatis oleh installer sebagai cadangan file asli game. Jangan hapus folder `original` ini agar uninstaller bisa mengembalikan game Anda kapan saja.
+- Mod ini murni mengubah teks dan tekstur antarmuka tanpa menyentuh file save data maupun statistik permainan.
+
+## Dukung Kreator
+
+Jika Anda menyukai mod ini dan ingin mendukung penerjemahan mod game lainnya, Anda bisa memberikan dukungan melalui Trakteer:
+
+👉 [https://trakteer.id/shditz/tip](https://trakteer.id/shditz/tip)
+
+Terima kasih atas dukungannya!
